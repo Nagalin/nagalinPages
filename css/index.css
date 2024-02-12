@@ -109,10 +109,6 @@ footer strong {
   
 }
 
-footer a:first-child {
-  margin-top: 50px;
-}
-
 footer p:not(:last-child) {
   margin-bottom: 10px;
 }
