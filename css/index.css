@@ -105,7 +105,12 @@ footer {
 }
 
 footer strong {
-  color: #000000; 
+  color: #000000;
+  
+}
+
+footer a:first-child {
+  margin-top: 50px;
 }
 
 footer p:not(:last-child) {
