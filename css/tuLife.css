@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  background-image: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 img {
   border-radius: 5%;
 }
@@ -154,7 +162,7 @@ footer p:not(:last-child) {
   .right-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-top: 20px;
   }
 
   .left-container {
@@ -186,5 +194,3 @@ footer p:not(:last-child) {
     margin-left: 20px;
   }
 }
-
-
